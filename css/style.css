@@ -14,6 +14,7 @@
 body{
     
     font-family: sans-serif;
+    font-weight: bold;
 
 }
 
@@ -110,7 +111,13 @@ h1{
 .titoletto2 {
 
     padding-top: 1.5rem;
+    margin-bottom: 1rem;
 
+}
+
+.blocco-finale{
+    width: 50%;
+    margin: 0 auto;
 }
 
 .contenuto2 {
@@ -152,11 +159,19 @@ h1{
 
 }
 
+.accedi{
+
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+
+}
+
 .scarica2 {
     
     color: white;
     background-color: #8ea1e1;
     margin-bottom: 5rem;
+    font-weight: bold;
 
 }
 
@@ -165,18 +180,22 @@ h1{
     background-color: white;
     color: black;
     margin-right: 1.5rem;
+    font-weight: bold;
 }
 
 .apri-browser {
     
     background-color: #23272a;
     color: white;
+    font-weight: bold;
 }
 
 .registrati {
     
     color: white;
     background-color: #8ea1e1;
+    font-weight: bold;
+
 }
 
 /* fine bottoni */
@@ -213,6 +232,11 @@ h4{
 
 }
 
+.freccina{
+
+    font-size: 0.8rem;
+
+}
 
 .finale{
 
