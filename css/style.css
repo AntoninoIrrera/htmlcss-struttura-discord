@@ -24,3 +24,35 @@ nav{
     margin: 2rem auto;
 
 }
+
+.contenuto{
+    display: flex;
+    justify-content: center;
+}
+
+.blu{
+    background-color: lightblue;
+    height: 18rem;
+    width: 50%;
+    margin: 1rem 0;
+}
+
+.rosa{
+    background-color: lightpink;
+    height: 18rem;
+    width: 20%;
+    margin: 1rem 0;
+}
+.contenuto2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.verde{
+    width: 70%;
+    height: 28rem;
+    margin: 1rem auto;
+    background-color: green;
+}
