@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: blue;
+    height: 25vh;
+    padding-top: 1rem;
+}
+
+nav{
+    border: 2px solid black;
+    background-color: lightcoral;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.paragrafo{
+    background-color: pink;
+    height: 8rem;
+    width: 55%;
+    margin: 2rem auto;
+
+}
