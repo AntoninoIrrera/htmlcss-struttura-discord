@@ -13,18 +13,15 @@ header{
     color: white;
 }
 
-nav{
-    
+body{
+    font-family: sans-serif;
+}
+
+nav{ 
     width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-}
-
-.accedi{
-    border-radius: 30%;
-    padding: 0.6rem;
-    border: none;
 }
 
 a{
@@ -34,19 +31,26 @@ a{
     color: white;
 }
 
+.accedi{
+    border-radius: 30%;
+    padding: 0.6rem;
+    border: none;
+}
+
+
 .paragrafo{
     height: 8rem;
     width: 55%;
     margin: 6rem auto;
     text-align: center;
-
 }
 
 h1{
     font-size: 3rem;
     margin-bottom: 3rem;
 }
-p{
+
+.frase-header{
     font-size: 1.5rem;
     margin-bottom: 3rem;
 }
@@ -66,24 +70,37 @@ p{
 
 
 
+
+
+
 .contenuto{
+
+    display: flex;
+}
+
+.img{
+
+    margin: 1rem 0;
+    width: 50%;
+    text-align: end;
+}
+
+
+.frase {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    width: 15%;
+    font-size: 1.4rem;
+    margin-left: 7rem;
 }
 
-.blu{
-    background-color: lightblue;
-    height: 18rem;
-    width: 50%;
-    margin: 1rem 0;
+.titoletto{
+    margin-bottom: 1.5rem;
 }
 
-.rosa{
-    background-color: lightpink;
-    height: 18rem;
-    width: 20%;
-    margin: 1rem 0;
-}
+
+
 .contenuto2 {
     display: flex;
     flex-direction: row-reverse;
@@ -91,12 +108,50 @@ p{
     background-color: lightgray;
 }
 
-.verde{
+
+.ultima-parte{
     width: 70%;
-    height: 28rem;
-    margin: 1rem auto;
-    background-color: green;
+    margin: 1rem auto; 
+    text-align: center;
 }
+
+.titolo-speciale{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    width: 50%;
+    height: 50px;
+    margin: 1.5rem auto;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.scarica{
+    color: white;
+    border-radius: 30%;
+    padding: 1rem;
+    background-color: lightblue;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     background-color: black;
